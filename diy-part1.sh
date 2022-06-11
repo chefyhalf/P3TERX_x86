@@ -14,5 +14,11 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+cd package/lean
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/vernesong/OpenClash.git
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
+git clone https://github.com/kenzok8/openwrt-packages.git
+git clone https://github.com/kenzok8/small.git
+git clone https://github.com/sirpdboy/luci-app-autotimeset.git
+git clone https://github.com/siwind/luci-app-wolplus.git
