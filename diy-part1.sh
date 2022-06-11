@@ -22,3 +22,4 @@ git clone https://github.com/kenzok8/openwrt-packages.git
 git clone https://github.com/kenzok8/small.git
 git clone https://github.com/sirpdboy/luci-app-autotimeset.git
 git clone https://github.com/siwind/luci-app-wolplus.git
+git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git
