@@ -17,6 +17,9 @@
 # git clone --depth=1 https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-ssr-plus
 # popd
 
+# Add 京东签到
+git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
+
 # Add luci-theme-argon
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
