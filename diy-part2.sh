@@ -18,7 +18,7 @@
 # popd
 
 # Add 京东签到
-git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 
 # Add luci-theme-argon
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
